@@ -2,7 +2,7 @@
 
 function warnTheSheep(queue) {
   const queueReverse = queue.reverse();
-  const wolfIndex = queueReverse.indexof('wolf');
+  const wolfIndex = queueReverse.indexOf('wolf');
   return wolfIndex > 0
     ? `Oi! Sheep number ${wolfIndex}! You are about to be eaten by a wolf!`
     : 'Pls go away and stop eating my sheep';
