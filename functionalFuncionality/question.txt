@@ -8,4 +8,4 @@ Array.sum() return the sum of all numbers in the array Example: [0, 1, 2].sum() 
 
 While not forbidden try to write both function without using a for loop
 
-FUNCTIONAL PROGRAMMINGFUNDAMENTALS
+FUNCTIONAL PROGRAMMING FUNDAMENTALS
