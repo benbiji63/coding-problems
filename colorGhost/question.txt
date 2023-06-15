@@ -10,4 +10,4 @@ Ghost objects are given a random color attribute of "white" or "yellow" or "purp
 ghost = new Ghost();
 ghost.color //=> "white" or "yellow" or "purple" or "red"
 
-#OBJECT-ORIENTED #PROGRAMMINGFUNDAMENTALS
+#OBJECT-ORIENTED #PROGRAMMING #FUNDAMENTALS
