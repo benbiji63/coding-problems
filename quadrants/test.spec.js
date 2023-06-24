@@ -1,10 +1,13 @@
-const {assert} = require("chai");
-describe("Fixed", () => {
+const { assert } = require('chai');
+describe('Fixed', () => {
   const tests = {
     Example: [
-      [1, 2, 1], [3, 5, 1], [-10, 100, 2],
-      [-1, -9, 3], [19, -56, 4]
-    ]
+      [1, 2, 1],
+      [3, 5, 1],
+      [-10, 100, 2],
+      [-1, -9, 3],
+      [19, -56, 4],
+    ],
   };
   for (var k of Object.keys(tests)) {
     it(k, () => {
