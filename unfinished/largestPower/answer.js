@@ -1,3 +1,0 @@
-function largestPower(n){
-  //..
-}
