@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/52437f32636a67edb00002f7/train/javascript
+Instructions
+Find out why the amount of honey in the hive is not increasing.
+
+DEBUGGING
