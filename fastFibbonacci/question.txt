@@ -15,4 +15,4 @@ Write a more efficient fibonacci function that can calculate the 1000th+ number 
 Starting values
 fib(0) = 0;
 fib(1) = 1;
-FUNCTIONALPROGRAMMING ALGORITHMS
+FUNCTIONAL PROGRAMMING ALGORITHMS
