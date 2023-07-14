@@ -20,4 +20,4 @@ Examples
 "xxYxx" and w = 1      -->  4
 "xxxxYxYx" and w = 5   -->  3
 "xxxxxYxYx" and w = 2  -->  5
-STRINGSALGORITHMSPUZZLES
+STRINGS ALGORITHMS PUZZLES
