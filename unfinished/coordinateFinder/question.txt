@@ -68,4 +68,4 @@ The plane is not aligned properly to the bottom-left edge
   / / /
 0/ / /          0 -> invalid, the raster should be here
   
-ALGORITHMSSTRINGSGEOMETRYMATHEMATICS
+ALGORITHMS STRINGS GEOMETRY MATHEMATICS
