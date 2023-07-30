@@ -16,6 +16,7 @@
 // }
 
 function lineupStudents(students) {
+  return students.trim()
   // Sort the array
   let lengthSort = students
     .split(' ')
@@ -31,7 +32,7 @@ function lineupStudents(students) {
   // filter away empty arrays sort the sub array in descending order and join them
   return ascendArr
     .filter(arr => arr.length > 0)
-    .map(arr => arr.sort((a, b) => (a > b ? -1 : 1)).reverse())
+    .map(arr => arr.sort((a, b) => (a > b ? 1 : -1)))
     .flat(1)
     .reverse();
 }
