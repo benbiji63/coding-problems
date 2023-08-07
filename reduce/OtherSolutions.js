@@ -7,4 +7,4 @@ function reduceArray(nums, fn, init) {
     const val = fn(init, head);
     return reduceArray4(tail, fn, val);
   }
-}
+}template
