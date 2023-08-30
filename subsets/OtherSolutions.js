@@ -17,7 +17,7 @@ function estSubsets(arr) {
     var n = 0;
     const uniqueArr = Array.from(new Set(arr));
     var i = 1;
-    while (i <= uniqueArr.length){
+    while (i <= uniqueArr.length){b
       n += combinatoric(uniqueArr.length, i);
       i++;
     }
