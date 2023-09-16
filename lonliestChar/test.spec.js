@@ -1,22 +1,29 @@
 const chai = require("chai");
 const assert = chai.assert;
+chai.config.truncateThreshold = 0;
 
-describe("Iterator for 'getDouble' function", function() {
-  var getDouble = function (n) {
-      return n + n;
-    };
-    
-  it("Running the iterator for once", function() {
-    var doubleIterator = createIterator(getDouble, 1);
-    
-    assert.strictEqual(doubleIterator(3), 6, "Returns double of 3 as 6");
-    assert.strictEqual(doubleIterator(5), 10, "Returns double of 5 as 10");
-  });
+describe("Example tests", function () {
+    it("Test simple string", function () {
+        assert.deepEqual(loneliest('a'), ['a'], "result");
+    });
   
-  it("Running the iterator twice", function() {
-    var getQuadruple = createIterator(getDouble, 2);
-    
-    assert.strictEqual(getQuadruple(2), 8, "Returns quadruple of 2 as 8");
-    assert.strictEqual(getQuadruple(5), 20, "Returns quadruple of 5 as 20");
-  });
+    it("Test simple string", function () {
+        assert.deepEqual(loneliest('abc d   ef  g   h i j      '), ['g'], "result");
+    });
+  
+    it("Test simple string", function () {
+        assert.deepEqual(loneliest('a   b   c '), ['b'], "result");
+    });
+  
+    it("Test simple string", function () {
+        assert.deepEqual(loneliest('  abc  d  z    f gk s '), ['z'], "result");
+    });
+  
+    it("Test simple string", function () {
+        assert.deepEqual(loneliest('a  b  c  de  ').sort(), ['b', 'c'], "result");
+    });
+  
+    it("Test simple string", function () {
+        assert.deepEqual(loneliest('abc').sort(), ['a', 'b', 'c'], "result");
+    });
 });
